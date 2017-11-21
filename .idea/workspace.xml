@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7a39ff60-e24b-4bf2-a6c3-2bc8c07e05c4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" afterPath="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js" afterPath="$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/views/NegociacoesView.js" afterPath="$PROJECT_DIR$/client/js/app/views/NegociacoesView.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state relative-caret-position="304">
+              <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -33,8 +31,8 @@
       <file leaf-file-name="ListaNegociacoes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -43,38 +41,9 @@
       <file leaf-file-name="NegociacaoController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MensagemView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/js/app/views/MensagemView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NegociacoesView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/js/app/views/NegociacoesView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <marker date="1511182016000" expanded="true" signature="196:1176" ph="..." />
-                <marker date="1511182016000" expanded="true" signature="220:457" ph="..." />
-                <marker date="1511182016000" expanded="true" signature="245:432" ph="..." />
-                <marker date="1511182016000" expanded="true" signature="482:531" ph="..." />
-                <marker date="1511182016000" expanded="true" signature="482:873" ph="..." />
-                <marker date="1511182016000" expanded="true" signature="561:814" ph="..." />
-                <marker date="1511182016000" expanded="true" signature="898:1155" ph="..." />
-                <marker date="1511182016000" expanded="true" signature="965:1130" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,8 +169,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,15 +211,16 @@
       <workItem from="1510503368615" duration="4136000" />
       <workItem from="1510576136341" duration="543000" />
       <workItem from="1511008028718" duration="170000" />
-      <workItem from="1511181528832" duration="985000" />
+      <workItem from="1511181528832" duration="1228000" />
+      <workItem from="1511275935230" duration="1466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11763000" />
+    <option name="totallyTimeSpent" value="13472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="708" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -282,6 +252,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/views/MensagemView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/views/NegociacoesView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1511182016000" expanded="true" signature="196:1176" ph="..." />
+            <marker date="1511182016000" expanded="true" signature="220:457" ph="..." />
+            <marker date="1511182016000" expanded="true" signature="245:432" ph="..." />
+            <marker date="1511182016000" expanded="true" signature="482:531" ph="..." />
+            <marker date="1511182016000" expanded="true" signature="482:873" ph="..." />
+            <marker date="1511182016000" expanded="true" signature="561:814" ph="..." />
+            <marker date="1511182016000" expanded="true" signature="898:1155" ph="..." />
+            <marker date="1511182016000" expanded="true" signature="965:1130" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/js/app/models/Negociacao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -600,17 +619,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/js/app/views/NegociacoesView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
+        <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <marker date="1511182016000" expanded="true" signature="196:1176" ph="..." />
@@ -635,16 +646,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
