@@ -25,6 +25,17 @@ class ProxyFactory {
                 }
                 //Se não for as funções desejadas, faz o get padrão
                 return Reflect.get(target, prop, receiver);
+            },
+
+            set(target, prop, value, receiver) {
+
+              if(props.includes(prop)) {
+                  console.log(`interceptando: ${prop}`);
+                  Reflect.set(target, prop, value, receiver);
+                  acao(target);
+              }
+
+              return Reflect.set(target, prop, value, receiver);
             }
         });
     }
