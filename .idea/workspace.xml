@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a39ff60-e24b-4bf2-a6c3-2bc8c07e05c4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" afterPath="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/helpers/Bind.js" afterPath="$PROJECT_DIR$/client/js/app/helpers/Bind.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/services/ProxyFactory.js" afterPath="$PROJECT_DIR$/client/js/app/services/ProxyFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js" afterPath="$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/views/NegociacoesView.js" afterPath="$PROJECT_DIR$/client/js/app/views/NegociacoesView.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+            <state relative-caret-position="559">
+              <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -31,28 +33,57 @@
       <file leaf-file-name="NegociacaoController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+            <state relative-caret-position="-13">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProxyFactory.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/js/app/services/ProxyFactory.js">
+      <file leaf-file-name="NegociacoesView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/js/app/views/NegociacoesView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <marker date="1511392449000" expanded="true" signature="196:1082" ph="..." />
+                <marker date="1511392449000" expanded="true" signature="220:457" ph="..." />
+                <marker date="1511392449000" expanded="true" signature="245:432" ph="..." />
+                <marker date="1511392449000" expanded="true" signature="482:531" ph="..." />
+                <marker date="1511392449000" expanded="true" signature="482:873" ph="..." />
+                <marker date="1511392449000" expanded="true" signature="561:814" ph="..." />
+                <marker date="1511392449000" expanded="true" signature="898:1061" ph="..." />
+                <marker date="1511392449000" expanded="true" signature="965:1036" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Negociacao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/js/app/models/Negociacao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bind.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/js/app/helpers/Bind.js">
+      <file leaf-file-name="ListaNegociacoes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NegociacaoService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/js/app/services/NegociacaoService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -63,6 +94,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -83,12 +115,14 @@
         <option value="$PROJECT_DIR$/client/js/app/models/Mensagem.js" />
         <option value="$PROJECT_DIR$/client/js/app/views/View.js" />
         <option value="$PROJECT_DIR$/client/js/app/views/MensagemView.js" />
-        <option value="$PROJECT_DIR$/client/js/app/views/NegociacoesView.js" />
-        <option value="$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js" />
-        <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/client/js/app/helpers/Bind.js" />
-        <option value="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" />
         <option value="$PROJECT_DIR$/client/js/app/services/ProxyFactory.js" />
+        <option value="$PROJECT_DIR$/client/post.html" />
+        <option value="$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js" />
+        <option value="$PROJECT_DIR$/client/js/app/views/NegociacoesView.js" />
+        <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" />
+        <option value="$PROJECT_DIR$/client/js/app/services/NegociacaoService.js" />
       </list>
     </option>
   </component>
@@ -131,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,7 +204,15 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aluraframe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aluraframe" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aluraframe" type="b2602c69:ProjectViewProjectNode" />
@@ -186,6 +227,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,6 +239,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="jsx.switch.disabled" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,12 +274,13 @@
       <workItem from="1511181528832" duration="1228000" />
       <workItem from="1511275935230" duration="1518000" />
       <workItem from="1511306026822" duration="844000" />
-      <workItem from="1511381316309" duration="1895000" />
+      <workItem from="1511381316309" duration="2239000" />
+      <workItem from="1511391237064" duration="3188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16263000" />
+    <option name="totallyTimeSpent" value="19795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="708" extended-state="0" />
@@ -271,22 +315,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -316,14 +344,14 @@
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <marker date="1511182016000" expanded="true" signature="196:1176" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="220:457" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="245:432" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:531" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:873" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="561:814" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="898:1155" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="965:1130" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="196:1082" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="220:457" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="245:432" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:531" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:873" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="561:814" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="898:1061" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="965:1036" ph="..." />
           </folding>
         </state>
       </provider>
@@ -381,14 +409,14 @@
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
-            <marker date="1511182016000" expanded="true" signature="196:1176" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="220:457" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="245:432" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:531" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:873" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="561:814" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="898:1155" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="965:1130" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="196:1082" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="220:457" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="245:432" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:531" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:873" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="561:814" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="898:1061" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="965:1036" ph="..." />
           </folding>
         </state>
       </provider>
@@ -430,14 +458,14 @@
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
-            <marker date="1511182016000" expanded="true" signature="196:1176" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="220:457" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="245:432" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:531" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:873" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="561:814" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="898:1155" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="965:1130" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="196:1082" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="220:457" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="245:432" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:531" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:873" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="561:814" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="898:1061" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="965:1036" ph="..." />
           </folding>
         </state>
       </provider>
@@ -495,14 +523,14 @@
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
-            <marker date="1511182016000" expanded="true" signature="196:1176" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="220:457" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="245:432" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:531" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:873" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="561:814" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="898:1155" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="965:1130" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="196:1082" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="220:457" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="245:432" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:531" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:873" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="561:814" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="898:1061" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="965:1036" ph="..." />
           </folding>
         </state>
       </provider>
@@ -646,51 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/app/models/Negociacao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/app/views/NegociacoesView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1511182016000" expanded="true" signature="196:1176" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="220:457" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="245:432" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:531" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="482:873" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="561:814" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="898:1155" ph="..." />
-            <marker date="1511182016000" expanded="true" signature="965:1130" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/js/app/views/MensagemView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -703,18 +690,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
+    <entry file="file://$PROJECT_DIR$/client/js/app/services/ProxyFactory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        <state relative-caret-position="313">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/app/services/ProxyFactory.js">
+    <entry file="file://$PROJECT_DIR$/client/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="168">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/views/NegociacoesView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <marker date="1511392449000" expanded="true" signature="196:1082" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="220:457" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="245:432" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:531" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="482:873" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="561:814" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="898:1061" ph="..." />
+            <marker date="1511392449000" expanded="true" signature="965:1036" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/models/Negociacao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/services/NegociacaoService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -26,6 +26,20 @@ class NegociacaoController {
         this._mensagem.texto = "Negociação adicionada com sucesso";
     }
 
+    importaNegociacoes() {
+        let negociacaoService = new NegociacaoService();
+
+        negociacaoService.obterNegociacoesDaSemana((erro, dado) => {
+            if(erro) {
+                this._mensagem.texto = erro;
+                return;
+            }
+
+            dado.forEach( objeto => this._negociacoes.adiciona(objeto));
+            this._mensagem.texto = 'Negociacao importada com sucesso';
+        });
+    }
+
     apaga() {
 
         this._negociacoes.esvazia();
