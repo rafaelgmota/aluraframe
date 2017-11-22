@@ -16,11 +16,13 @@ class ProxyFactory {
 
                         //Chama a função original com os paramentros recebidos
                         //Executando no contexto do target
-                        Reflect.apply(target[prop], target, arguments);
+                        let retorno = Reflect.apply(target[prop], target, arguments);
 
                         //Chama o update de NegociacoesView, necessario o self
                         //O target é o que o proxy esta encapsulando, no caso ListaNegociacoes.
-                        return acao(target);
+                        acao(target);
+
+                        return retorno;
                     }
                 }
                 //Se não for as funções desejadas, faz o get padrão
@@ -29,13 +31,13 @@ class ProxyFactory {
 
             set(target, prop, value, receiver) {
 
+                let retorno = Reflect.set(target, prop, value, receiver);
               if(props.includes(prop)) {
                   console.log(`interceptando: ${prop}`);
-                  Reflect.set(target, prop, value, receiver);
                   acao(target);
               }
 
-              return Reflect.set(target, prop, value, receiver);
+              return retorno;
             }
         });
     }

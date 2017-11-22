@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a39ff60-e24b-4bf2-a6c3-2bc8c07e05c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" afterPath="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/helpers/Bind.js" afterPath="$PROJECT_DIR$/client/js/app/helpers/Bind.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/app/services/ProxyFactory.js" afterPath="$PROJECT_DIR$/client/js/app/services/ProxyFactory.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,21 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NegociacaoController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NegociacaoController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProxyFactory.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProxyFactory.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/js/app/services/ProxyFactory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="424">
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="Bind.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/js/app/helpers/Bind.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -85,9 +85,9 @@
         <option value="$PROJECT_DIR$/client/js/app/views/MensagemView.js" />
         <option value="$PROJECT_DIR$/client/js/app/views/NegociacoesView.js" />
         <option value="$PROJECT_DIR$/client/js/app/models/ListaNegociacoes.js" />
-        <option value="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" />
-        <option value="$PROJECT_DIR$/client/js/app/helpers/Bind.js" />
         <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/client/js/app/helpers/Bind.js" />
+        <option value="$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js" />
         <option value="$PROJECT_DIR$/client/js/app/services/ProxyFactory.js" />
       </list>
     </option>
@@ -231,12 +231,12 @@
       <workItem from="1511181528832" duration="1228000" />
       <workItem from="1511275935230" duration="1518000" />
       <workItem from="1511306026822" duration="844000" />
-      <workItem from="1511381316309" duration="1612000" />
+      <workItem from="1511381316309" duration="1895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15980000" />
+    <option name="totallyTimeSpent" value="16263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="708" extended-state="0" />
@@ -687,22 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/app/helpers/Bind.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/app/services/ProxyFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -711,10 +695,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/helpers/Bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/js/app/controllers/NegociacaoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="345">
+          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/app/services/ProxyFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="31" />
           <folding />
         </state>
       </provider>
