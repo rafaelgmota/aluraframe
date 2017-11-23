@@ -1,28 +1,52 @@
 class NegociacaoService {
 
-    obterNegociacoesDaSemana(cb) {
+    constructor() {
+        this._http = new HttpService();
+    }
 
-        let xhr = new XMLHttpRequest();
+    obterNegociacoesDaSemana() {
 
-        xhr.open('GET', 'negociacoes/semana');
+        return new Promise( (resolve, reject) => {
 
-        xhr.onreadystatechange = () => {
+            this._http.get('negociacoes/semana').
+                then(negociacoes => {
+                    resolve(negociacoes.map(negociacao => new Negociacao(new Date(negociacao.data), negociacao.quantidade, negociacao.valor)));
+                }).
+                catch(erro => {
+                    console.log(erro);
+                    reject('Falha na importação das negociações da semana atual');
+                });
+        });
+    }
 
-            //Sucesso na comunicacao com o servidor e retorno válido
-            if(xhr.readyState == 4) {
+    obterNegociacoesDaSemanaAnterior() {
 
-                //Status retornado foi sucesso
-                if(xhr.status == 200) {
-                    cb(null, JSON.parse(xhr.responseText).map(negociacao => new Negociacao(new Date(negociacao.data), negociacao.quantidade, negociacao.valor)));
-                }
-                else {
-                    console.log(xhr.responseText);
-                    cb("Ocorreu um erro ao importar as negocicacoes", null);
-                }
-            }
-        }
+        return new Promise( (resolve, reject) => {
 
-        xhr.send();
+            this._http.get('negociacoes/anterior').
+            then(negociacoes => {
+                resolve(negociacoes.map(negociacao => new Negociacao(new Date(negociacao.data), negociacao.quantidade, negociacao.valor)));
+            }).
+            catch(erro => {
+                console.log(erro);
+                reject('Falha na importação das negociações da semana anterior');
+            });
+        });
 
+    }
+
+    obterNegociacoesDaSemanaRetrasada() {
+
+        return new Promise( (resolve, reject) => {
+
+            this._http.get('negociacoes/retrasada').
+            then(negociacoes => {
+                resolve(negociacoes.map(negociacao => new Negociacao(new Date(negociacao.data), negociacao.quantidade, negociacao.valor)));
+            }).
+            catch(erro => {
+                console.log(erro);
+                reject('Falha na importação das negociações da semana retrasada');
+            });
+        });
     }
 }
